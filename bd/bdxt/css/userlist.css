@@ -1,0 +1,110 @@
+.title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 50px;
+    font-size:25px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    text-align: center;
+    margin-left: 196px;
+}
+.logo{
+    width: 196px;
+    line-height: 100px;
+    background-color: #343636;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+}
+/* 左边tab */
+.left{
+    height: 1080px;
+    background-color: #040c15;
+    color: #c4c6c6;
+    float: left;
+    width: 196px;
+}
+.tab ul li {
+    line-height: 55px;
+    text-align: center;
+    font-size: 17px;
+    background-color: #011324;
+}
+.user,.msg,.main,.tongji,.grade,.zhanghao{
+    border-bottom: 1px solid #d4d5d6;
+}
+.usert,.msgt,.maint,.tongjit,.gradet{
+    display: none;
+}
+.usert{
+    display: block;
+}
+.usert,.msgt,.maint,.tongjit,.gradet ul{
+    border-bottom: 1px solid #d4d5d6;
+}
+.tab ul li span{
+    display: inline-block;
+    margin-left: 20px;
+    transform: rotate(90deg)
+}
+.tab .user  span{
+    transform: rotate(270deg)
+}
+/* 右面tab */
+.right{
+    float: left; margin-top: 100px;
+}
+.listtitle ul{
+    background-color: #000;
+    color: #d4d5d6;
+}
+.listtitle ul li{
+    float: left;
+    line-height: 56px;
+    text-align: center;
+   width: 240px;
+   
+}
+.listmain ul:nth-child(even){
+    background-color: #d4d5d6;
+    color: #929293;
+}
+.listmain ul:nth-child(odd){
+    background-color: #fff;
+    color: #929293;
+}
+.listmain ul li{
+    float: left;
+    line-height: 55px;
+    text-align: center;
+    width: 240px;
+   /* border-bottom: 1px solid #000; */
+}
+.usert li:first-child{
+    background-color: #6fbbff;
+    color: #fff;
+}
+/* 搜索框 */
+/* .search{
+    float: right;
+    margin-top: 75px;
+    margin-left: 1400px;
+}
+.search input{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 4px;
+    height: 12px;
+}
+
+.search span{
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 5px;
+    line-height: 10px;
+    padding: 5px;
+} */
+
