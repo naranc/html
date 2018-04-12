@@ -29,11 +29,7 @@
 .tab ul li {
     line-height: 40px;
     text-align: center;
-<<<<<<< HEAD
     font-size: 14px;
-=======
-    font-size: 17px;
->>>>>>> c10a0b1567e7e645f8c5e4896abdb3b27ba94f8c
     background-color: #011324;
 }
 .user,.msg,.main,.tongji,.grade,.zhanghao{
@@ -49,6 +45,12 @@
     display: inline-block;
     margin-left: 20px;
     transform: rotate(90deg)
+}
+.tab ul li a{
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    line-height:40px ;
 }
 /* 右面tab */
 .right{

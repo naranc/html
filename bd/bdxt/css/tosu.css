@@ -69,7 +69,7 @@
     float: left;
     line-height: 40px;
     text-align: center;
-   width: 14%;
+   width: 16%;
    
 }
 .listmain ul:nth-child(even){
@@ -84,7 +84,7 @@
     float: left;
     line-height: 40px;
     text-align: center;
-    width: 14%;
+    width: 16%;
    /* border-bottom: 1px solid #000; */
 }
 /* .usert li:first-child{

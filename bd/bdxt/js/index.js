@@ -18,18 +18,18 @@ $(document).ready(function(){
         }
        
     })
-    $(".usert ul li").mouseover(function(){
+    $(".usert ul li a").mouseover(function(){
         // console.log(1)
         $(this).css("background-color","#6fbbff")
         $(this).css("color","#fff")
-        $(".usert ul li a").css("color","#fff")
+        // $(this.a).css("color","#fff")
         
     })
-    $(".usert ul li").mouseout(function(){
+    $(".usert ul li a").mouseout(function(){
         // console.log(2)
         $(this).css("background-color","#040c15")
         $(this).css("color","#c4c6c6")
-        
+        // $(this.a).css("color","#c4c6c6")
     })
     $(".msg").on("click",function(){
         m++
@@ -44,16 +44,18 @@ $(document).ready(function(){
         }
        
     })
-    $(".msgt ul li").mouseover(function(){
+    $(".msgt ul li a").mouseover(function(){
         // console.log(1)
         $(this).css("background-color","#6fbbff")
         $(this).css("color","#fff")
+        // $(".msgt ul li a").css("color","#fff")
         
     })
-    $(".msgt ul li").mouseout(function(){
+    $(".msgt ul li a").mouseout(function(){
         // console.log(2)
         $(this).css("background-color","#040c15")
-        $(this).css("color","#c4c6c6")
+        $(this).css("color","")
+        // $(".msgt ul li a").css("color","#c4c6c6")
         
     })
     $(".main").on("click",function(){
@@ -63,19 +65,21 @@ $(document).ready(function(){
             // console.log(i)
              $(".maint").show()
             $(".main span").css("transform","rotate(270deg)")
+          
+
         }else{
             $(".maint").hide()
             $(".main span").css("transform","rotate(90deg)")
         }
        
     })
-    $(".maint ul li").mouseover(function(){
+    $(".maint ul li a").mouseover(function(){
         // console.log(1)
         $(this).css("background-color","#6fbbff")
         $(this).css("color","#fff")
-        
+        // $(".maint ul li a").css("color","#fff")
     })
-    $(".maint ul li").mouseout(function(){
+    $(".maint ul li a").mouseout(function(){
         $(this).css("background-color","#040c15")
         $(this).css("color","#fff")
         
@@ -93,13 +97,13 @@ $(document).ready(function(){
         }
        
     })
-    $(".tongjit ul li").mouseover(function(){
+    $(".tongjit ul li a").mouseover(function(){
         // console.log(1)
         $(this).css("background-color","#6fbbff")
         $(this).css("color","#fff")
-        
+        // $(".tongjit ul li a").css("color","#fff")
     })
-    $(".tongjit ul li").mouseout(function(){
+    $(".tongjit ul li a").mouseout(function(){
         $(this).css("background-color","#040c15")
         $(this).css("color","#fff")
         
@@ -117,13 +121,13 @@ $(document).ready(function(){
         }
        
     })
-    $(".gradet ul li").mouseover(function(){
+    $(".gradet ul li a").mouseover(function(){
         // console.log(1)
         $(this).css("background-color","#6fbbff")
         $(this).css("color","#fff")
-        
+        // $(".gradet ul li a").css("color","#fff")
     })
-    $(".gradet ul li").mouseout(function(){
+    $(".gradet ul li a").mouseout(function(){
         $(this).css("background-color","#040c15")
         $(this).css("color","#fff")
         
