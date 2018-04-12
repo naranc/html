@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <input type="text"  value="www.baidu.com" id="url">
+    <button onclick="copy()">复制</button>
+</head>
+<body>
+    <script>
+        function copy(){
+            var url=document.getElementById("url")
+            url.select();
+            document.execCommand("Copy");
+            alert("1")
+        }    
+    </script>
+</body>
+</html>
