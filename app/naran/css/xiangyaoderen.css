@@ -1,0 +1,151 @@
+
+/*顶部*/
+.header{
+	width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: -webkit-linear-gradient(-225deg, #359FFF 0%, #65CDFF 100%) !important;
+	background-image: -o-linear-gradient(-225deg, #359FFF 0%, #65CDFF 100%) !important;
+	background-image: -moz-linear-gradient(-225deg, #359FFF 0%, #65CDFF 100%) !important;
+	background-image: linear-gradient(-225deg, #359FFF 0%, #65CDFF 100%) !important;
+    z-index: 99;
+    font-size: 0;
+    white-space: nowrap;
+    padding-top: 0.518533rem;
+    padding-bottom: 0.153639rem;
+    border-bottom: 0.01rem solid #EEEEEE;
+}
+.header>p{
+   font-size: 0.326484rem;
+   text-align: center;
+   color: #fff;
+   line-height: 0.460918rem;
+   height: 0.460918rem;
+   margin: 0 0.288074rem;
+}
+.header>p>span{
+	float: left;
+	vertical-align: middle;
+	height: 0.460918rem;
+	line-height: 0.460918rem;
+}
+.header>p>span>img{
+	width: 0.384098rem;
+	height: 0.384098rem;
+	margin-bottom: 0.057615rem;
+	vertical-align: middle;
+}
+
+/*想要的人列表清单*/
+.list{
+	margin: 1.24832rem 0.288074rem 0;
+	padding-top: 0.288074rem;
+}
+.list>.list-slide{
+	border: 0.005rem solid #eee;
+	padding: 0.230459rem;
+	box-shadow: 0 2px 0.115229rem 0 #eee;
+	overflow: hidden;
+}
+.list>.list-slide+.list-slide{
+	margin-top: 0.288074rem;
+}
+.list>.list-slide .left img.touxiang{
+    width: 0.883426rem;
+    height: 0.883426rem;
+    border-radius: 50%
+}
+.list>.list-slide .left{
+	font-size: 0.268869rem;
+}
+.list>.list-slide .left>span{
+	display: inline-block;
+	vertical-align: middle;
+    color: rgb(120,190,255);
+}
+.list>.list-slide .select>img{
+   width: 0.460918rem;
+   vertical-align: middle;
+}
+.list>.list-slide .right{
+	font-size: 0.230459rem;
+	line-height: 0.883426rem;
+	color: #999;
+}
+.list>.list-slide .right>img{
+	width: 0.3rem;
+	vertical-align: middle;
+}
+
+/*时间控件*/
+.list>.list-slide .select label{
+	position: relative;
+	overflow: visible;
+}
+.list>.list-slide .select label>input{
+	background-color: transparent;
+	position: absolute;
+    z-index: 9;
+    left: -1.5rem;
+    height: 0.5rem;
+    top: -0.1rem;
+    width: 3rem;
+    font-size: 0;
+    border: 0;
+    outline: 0;
+}
+
+.ranges .cancelBtn>img{
+	position: relative;
+	top: 6px;
+	left: 0
+}
+.ranges .daterangepicker_end_input{
+	line-height: 0 !important;
+}
+.ranges .daterangepicker_end_input+div{
+	line-height: 10px !important;
+	margin-top: 0 !important;
+	margin-right: 68px;
+}
+.cancelBtn{
+	width: 100% !important;
+	text-align: center;
+	background-color: transparent !important;
+    line-height: 0 !important;
+    padding: 0 !important;
+    color: rgb(111,185,222);
+    letter-spacing: 1px;
+}
+.checkbg{
+	background-color: #c9ebee !important;
+}
+
+/*弹窗*/
+/*.tanchuang{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 999;
+}
+.tanchuang>.tanchuang-content{
+	width: 5.204532rem;
+	height: 1.901287rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	background-color: #fff;
+	border-radius: 0.192049rem；
+	text-align: center;
+}
+.tanchuang>.tanchuang-content>p{
+	font
+}*/

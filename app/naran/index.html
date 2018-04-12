@@ -130,33 +130,6 @@
 				</div>
 			</div>
 		</div>
-			<!--<ul class="fenlei-more">
-				<li>
-					<a href="#">
-						<img src="images/fenlei0.png">
-						<p>美妆护理</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="images/fenlei1.png">
-						<p>钟表首饰</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="images/fenlei2.png">
-						<p>数码电器</p>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src="images/fenlei3.png">
-						<p>工具器材</p>
-					</a>
-				</li>
-			</ul>
-			<div class="clear"></div>-->
 		</div>
 		<div class="fenlei fabu" id="fabu">
 			<h3><span>最新发布 <i></i></span></h3>
@@ -322,6 +295,7 @@
 		</div>
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="js/swipper.js"></script>
+		<script type="text/javascript" src="js/public.js"></script>
 		<script type="text/javascript">
 			(function() {
 				//第一个水平banner轮播图
@@ -355,20 +329,6 @@
 					
 				});
 				
-				//顶部搜索栏滑动背景变色
-				window.addEventListener("touchend", function(e) {
-					scrollFoo()
-				});
-
-				function scrollFoo() {
-					var el = $(".search");
-					var endY = $(window).scrollTop();
-					if(Math.abs(endY) <= 4) {
-						el.attr('class', 'search');
-					} else {
-						el.addClass('search-scroll')
-					}
-				};
 				
 				//最新发布点击跳转
 				 $("#fabu").on('click','.fabu-slide',function(){
