@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>心愿海后台管理系统</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
     <script src="./lib/jquery.min.js"></script>
     <script src="./js/index.js"></script>
 </head>
 
-<body>
+<body class="clearfix">
     <div class="title">心愿海后台管理系统</div>
     <div class="left">
         <div class="logo">LOGO</div>
@@ -23,10 +23,10 @@
                 </li>
                 <li class="usert">
                     <ul>
-                        <li>用户列表</li>
+                        <li>   <a href="./html/userlist.html">用户列表</a>  </li>
                         <li>新增用户</li>
                         <li>沉默用户</li>
-                        <li>黑名单</li>
+                        <li><b>黑&nbsp; </b> 名 <b> &nbsp;单</b></li>
                     </ul>
                 </li>
                 <li class="msg">信息管理 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -85,5 +85,13 @@
         
     </div>
 </body>
-
+<script>
+    var arr = ["a","b","c","d"];
+    for (a in arr){
+        console.log(a)
+    }
+    for (a of arr){
+        console.log(a)
+    }
+</script>
 </html>
