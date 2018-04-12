@@ -1,0 +1,206 @@
+body{
+	background-color: #F5F5F5;
+}
+/*头部*/
+.head{
+	width: 100%;
+	height: 2.765508rem;
+	font-size: 0.326484rem;
+	color: #fff;
+	text-align: center;
+	background-image: -webkit-linear-gradient(-225deg, #FFC3D9 0%, #FF739A 100%);
+	background-image: -o-linear-gradient(-225deg, #FFC3D9 0%, #FF739A 100%);
+	background-image: -moz-linear-gradient(-225deg, #FFC3D9 0%, #FF739A 100%);
+	background-image: linear-gradient(-225deg, #65CDFF 0%, #359FFF 100%);
+}
+
+.head>.head-top{
+	padding: 0.652967rem 0.288074rem 0.192049rem;
+	font-weight: 500;
+}
+.head>.head-top img{
+	width: 0.384098rem;
+	vertical-align: middle;
+}
+
+
+/*menu*/
+
+.menu{
+   width: 100%;
+   margin-bottom: 0.288074rem;
+   position: relative;
+   z-index: 5;
+}
+.menu>ul{
+   margin: 0 0.288074rem;
+   font-size: 0;
+   white-space: nowrap;
+   overflow: hidden;
+   background-color: #fff;
+   border-radius: 0.096025rem;
+   padding: 0.249664rem 0 0.326484rem;
+   box-shadow: 0 0.172844rem 0.288074rem 0 rgb(111,187,255,0.32);
+}
+.menu>ul>li{
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.menu>ul>li>a {
+	width: 100%; 
+	height: 100%;
+}
+.menu>ul>li img{
+	width: 1.152295rem;
+	height: auto;
+}
+.menu>ul>li p{
+	font-size: 0.230459rem;
+    color: #666666;
+    letter-spacing: -0.25px;
+    line-height: 0.326484rem
+}
+
+/*资讯*/
+.zixun{
+	background-color: #fff;
+	padding: 1.15rem 0.576147rem 0.576147rem;
+}
+.zixun-content{
+	height: 0.633762rem;
+	border-radius: 0.556943rem;
+	box-shadow: 0 0 0.07682rem 0 #6FBBFF;
+	overflow: hidden;
+}
+.zixun .zixun-slide{
+	height: 0.633762rem;
+	line-height: 0.633762rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 0.230459rem;
+	color: #666;
+}
+.zixun .zixun-slide>img{
+	width: 0.518533rem;
+	height: 0.268869rem;
+	vertical-align: middle;
+	margin-left: 0.326484rem;
+	margin-right: 0.15rem;
+    margin-top: -0.045rem;
+}
+/*轮播*/
+.banner{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #fff;
+	padding-bottom: 1.152295rem;
+}
+.banner>.swiper-container{
+	width: 6.049549rem;
+	height: 2.496639rem;
+	background-color: #fff;
+	box-shadow: 0 0.153639rem 0.134434rem 0 rgba(0,0,0,0.1);
+}
+.banner .swiper-pagination{
+	width: 100%;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.banner .swiper-pagination>span+span{
+	margin-left: 0.115229rem;
+}
+.swiper-pagination-bullet{
+	background: #FFFFFF;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+.swiper-pagination-bullet-active{
+	background: #BEE3FF;
+    border: 1px solid #65BCFF;
+}
+
+/*一周热门榜*/
+ .hotlist{
+ 	width: 100%;
+ 	background-color: #fff;
+ 	margin: 0.153639rem auto;
+ 	text-align: center;
+ }
+.hotlist>h3{
+	padding-top: 0.345688rem;
+	height: 0.8rem;
+	line-height: 0.768197rem;
+}
+.hotlist>h3>span{
+	float: left;
+	width: 1.997311rem;
+	height: 0.768197rem;
+	font-size: 0.345688rem;
+    color: #333333;
+    letter-spacing: -0.008258rem;
+    text-align: center;
+    position: relative;
+    margin-left: -0.998656rem;
+    left: 50%;
+}
+.hotlist>h3>span>i{
+	width: 1.997311rem;
+	height: 0.115229rem;
+	position: absolute;
+	bottom: 0.125rem;
+	left: 0;
+	z-index: -1;
+	opacity: 0.45;
+	border-radius: 0.057615rem;
+    background-image: linear-gradient(220deg, #6FBBFF 0%, #A8DFFF 100%);
+    z-index: 4
+}
+.hotlist>.hotlist-content{
+	margin: 0.288074rem 0.576147rem;
+	white-space: nowrap;
+	font-size: 0;
+	overflow: hidden;
+    display: inline-block;
+}
+.hotlist>.hotlist-content>li{
+	width: 1.536393rem;
+	float: left;
+	color: #333333;
+	font-size: 0.268869rem;
+	list-style-type: none;
+}
+.hotlist>.hotlist-content img{
+	width: 100%;
+	height: 2.285385rem;
+}
+.hotlist>.hotlist-content>li+li{
+	margin-left: 0.705rem
+}
+.hotlist>.hotlist-btm{
+	overflow: hidden;
+	padding-bottom: 0.460918rem;
+}
+.hotlist>.hotlist-btm>button{
+	width: 1.497983rem;
+	height: 0.633762rem;
+	line-height: 0.633762rem;
+	text-align: center;
+    background-image: linear-gradient(121deg, #359FFF 0%, #96CDFF 100%);
+    border: 0;
+    border-radius: 0.07682rem;
+    color: #fff;
+    padding-top: 0.019205rem;
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-left: -0.66257rem;
+}
+.hotlist>.hotlist-btm>button>img{
+	width: 0.28rem;
+	vertical-align: middle;
+	position: relative;
+	top: -0.019205rem;
+	left: 0
+}

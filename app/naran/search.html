@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="author" content="无厘头的巫" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<title>借阅</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/swipper.css">
+	    <link rel="stylesheet" type="text/css" href="css/jieyue.css"/>
+	    <script type="text/javascript" src="js/rem.js"></script>
+	</head>
+	<body>
+	   <!-- 头部 -->
+		<div class="head">
+            <div class="head-top">
+                  <span class="left"><img src="images/nav_back.png"></span>
+                  爱心书屋
+                  <span class="right"><img src="images/white_search.png"></span>
+                  <div class="clear"></div>
+            </div>
+            <div class="menu">
+            <ul>
+               <li>
+               	  <a href="#">
+	                  <div><img src="images/xunyibenshu.png"></div>
+	                  <p>寻一本书</p>
+                  </a>
+               </li>
+               <li>
+               	  <a href="#">
+	                  <div><img src="images/paihangbang.png"></div>
+	                  <p>排行榜</p>
+                  </a>
+               </li>
+               <li>
+               	<a href="#">
+                  <div><img src="images/shuxiangshequ.png"></div>
+                  <p>书香社区</p>
+                </a>
+               </li>
+               <li>
+	             <a href="#">
+	                <div><img src="images/shuzhai.png"></div>
+	                <p>书摘</p>
+                 </a>
+               </li>
+            </ul>
+            <div class="clear"></div>
+		</div>
+		</div>
+		  <!-- 资讯 -->
+		<div class="zixun">
+		   <div class="zixun-content">
+			   <div class="zixun-slide">
+		          <img src="images/tongzhi.png">
+		          那然公益一些资讯在在在在资讯在在资这里…
+	           </div>
+           </div>
+		</div>
+		  <!-- 热门轮播 -->
+		 <div class="banner">
+			 <div class="swiper-container">
+	            <div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="images/banner3.png" >
+					</div>
+					<div class="swiper-slide">
+						<img src="images/banner1.png" >
+					</div>
+					<div class="swiper-slide">
+						<img src="images/banner2.png" >
+					</div>
+				</div>
+			 </div>
+				<!-- 如果需要分页器 -->
+				<div class="swiper-pagination"></div>
+		 </div>
+		  <!-- 一周热门榜 -->
+		  <div class="hotlist">
+             <h3><span>一周热门榜 <i></i></span></h3>
+             <div class="clear"></div>
+             <ul class="hotlist-content">
+                <li><img src="images/fabu0.png"> <br><span>红楼梦</span></li>
+                <li><img src="images/fabu1.png"> <br><span>活着</span></li>
+                <li><img src="images/fabu0.png"> <br><span>红楼梦</span></li>
+             </ul>
+             <div class="clear"></div>
+             <div class="hotlist-btm">
+                  <button><img src="images/icon_huanyipi.png">&nbsp;换一批</button>
+                  <div class="clear"></div>
+             </div>
+		  </div>
+		  <!-- 书单推荐 -->
+           <div class="hotlist booklist">
+             <h3><span>书单推荐<i></i></span></h3>
+             <div class="clear"></div>
+              <ul class="hotlist-content">
+                <li><img src="images/fabu0.png"> <br><span>红楼梦</span></li>
+                <li><img src="images/fabu1.png"> <br><span>活着</span></li>
+                <li><img src="images/fabu0.png"> <br><span>红楼梦</span></li>
+             </ul>
+             <div class="hotlist-btm">
+                  <button><img src="images/icon_huanyipi.png">&nbsp;换一批</button>
+                   <div class="clear"></div>
+             </div>
+		  </div>
+		<script type="text/javascript" src="js/swipper.js"></script>
+		<script type="text/javascript">
+			var mySwiper = new Swiper('.swiper-container', {
+				directive: 'horizontal',
+				autoplay: true,
+				speed: 800,
+			    roundLengths: true,
+			    autoplayDisableOnInteraction: false,
+			    loop: true,
+			    slidesPerView: 'auto',
+			    centeredSlides: true,
+			    followFinger: false,
+			    initialSlide: 2,
+			    pagination: {
+			        el: '.swiper-pagination',
+			        type: 'bullets',
+			        //type: 'fraction',
+			        //type : 'progressbar',
+			        //type : 'custom',
+			    },
+			    paginationClickable: true,
+			   /* onInit: function(swiper) {
+			        swiper.slides[2].className = "swiper-slide swiper-slide-active"; //第一次打开不要动画
+			    },*/	
+			    breakpoints: {
+			        375: {
+			            slidesPerView: 1,
+			            //              spaceBetween: 10
+			        },
+			    }
+			});
+    
+		</script>
+	</body>
+</html>
