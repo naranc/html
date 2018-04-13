@@ -114,20 +114,16 @@
 } */
 /* 查看 */
 .chakan{
-    width: 90%; 
+    width: 50%; 
     position: absolute;
     top: 100px;
     left: 10%;
     /* display: none; */
+    background-color: #fff;
 }
-.base{
-    width: 73px;
-    line-height: 25px;
-    color: #fff;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #6fbbff;
-    font-size: 14px;
-    margin-left: 8%;
-   
+
+.rightin{
+    display: none;
+    /* border: 5px solid #333; */
 }
+

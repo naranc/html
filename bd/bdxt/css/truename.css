@@ -1,0 +1,14 @@
+.chakan{
+    width: 50%; 
+    position: absolute;
+    top: 180px;
+    left: 30%;
+    /* display: none; */
+    background-color: #fff;
+    border: 5px solid #6fbbff;
+}
+
+.rightin{
+    display: none;
+    /* border: 5px solid #333; */
+}

@@ -159,4 +159,21 @@
 }
 .truename,.addr{
     font-size: 12px;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.addr{
+    margin-left: 34%;
+}
+.mt{
+    margin-top: 40px;
+}
+.close{
+    width: 82px;
+    line-height: 33px;
+    text-align: center;
+    background-color: #6fbbff;
+    color: #fff;
+    margin-left: 50%;
+    margin-top: 5%;
 }
