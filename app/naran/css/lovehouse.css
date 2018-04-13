@@ -64,25 +64,36 @@ body{
 
 /*资讯*/
 .zixun{
+	clear: both;
 	background-color: #fff;
 	padding: 1.15rem 0.576147rem 0.576147rem;
 }
-.zixun-content{
+#zixun{
 	height: 0.633762rem;
 	border-radius: 0.556943rem;
 	box-shadow: 0 0 0.07682rem 0 #6FBBFF;
 	overflow: hidden;
 }
-.zixun .zixun-slide{
-	height: 0.633762rem;
-	line-height: 0.633762rem;
+.mycontainer{height: 99px;
+	margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+#zixun .swiper-slide{
+	display: inline-block;
+	height: 0.633762rem !important;
+	line-height: 0.633762rem !important;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	font-size: 0.230459rem;
 	color: #666;
+	padding-right: 0.326484rem;
 }
-.zixun .zixun-slide>img{
+.zixun .swiper-slide>img{
 	width: 0.518533rem;
 	height: 0.268869rem;
 	vertical-align: middle;
