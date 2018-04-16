@@ -180,6 +180,7 @@
 .zschakan{
     margin-left: 92px;
     margin-top: 100px;
+    display: none;
 }
 .zschakan p{
     line-height: 40px;
@@ -188,4 +189,116 @@
 }
 .zsl{
     margin-right: 150px;
+}
+.titleimg{
+    width: 177px;
+    line-height: 201px;
+    text-align: center;
+    border: 1px solid #c4c6c6;
+
+}
+.botma{
+    width: 784px;
+    height: 201px;
+    border: 1px solid #ccc;
+}
+.img{
+    width: 830px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.img div{
+    margin-top: 38px;
+    width: 126px;
+    height: 94px;
+    border: 1px solid #c4c6c6;
+    margin-right: 38px;
+    text-align: center;
+
+}
+.img div img{
+    height: 100%;
+}
+.knowledgem{
+    margin-top: 39px;
+    margin-left: 10%;
+}
+.knowledgem p{
+    line-height: 40px;
+}
+.knowledgem p span{
+    margin-left: 40px;
+}
+.imgbig1{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    width: 90%;
+    line-height: 300px;
+    background-color: #fff;
+    text-align: center;
+}
+.imgbig1 img{
+    margin-top: 100px;
+}
+.knowledgem .knowt,select{
+    margin-left: 57px;
+}
+
+.knowledgem .neirong{
+    display: inline-block;
+    width: 783px;
+    height: 201px;
+    border: 1px solid #c4c6c6;
+    margin: 0;
+}
+.btn button{
+   border: 0;
+   width: 83px;
+   height: 34px; 
+   
+}
+.btn1 button{
+    border:  1px solid #ff739a;
+    color: #ff739a;
+    background-color: #fff;
+    margin-left: 308px;
+}
+.btn2 button{
+    border:  1px solid #6fbbff;
+    color: #fff;
+    background-color: #6fbbff;
+    margin-left: 71px;
+}
+.btn3 button{
+    border:  1px solid #6fbbff;
+    color: #6fbbff;
+    background-color: #fff;
+    margin-left: 71px;
+    
+}
+.tousu{
+    padding:  92px
+}
+.tousu .tousutm{
+    margin-left: 170px;
+}
+.tousu .tousutr {
+    margin-left: 170px;
+}
+.tousu .tousutl p{
+    margin: 26px;
+}.tousu .tousutm p{
+    margin: 26px;
+}.tousu .tousutr p{
+    margin: 26px;
+}
+.tousu .tousutl p span{
+    margin-left: 30px;
+}
+.tousu .tousutm p span{
+    margin-left: 30px;
+}.tousu .tousutr p span{
+    margin-left: 30px;
 }

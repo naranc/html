@@ -12,3 +12,13 @@
     display: none;
     /* border: 5px solid #333; */
 }
+.cardimgz,.cardimgf{
+    width: 270px;
+    height: 161px;
+    border: 1px solid #c4c6c6;
+    margin: 40px 90px;
+}
+.addrs{
+    margin-left: 93px;
+    margin-bottom: 103px;
+}

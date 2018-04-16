@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="../lib/jquery.min.js"></script>
     <input type="text"  value="www.baidu.com" id="url">
     <button onclick="copy()">复制</button>
 </head>
 <body>
+    <ul>
+        <li><div class="a"><div class="b"><div class="c">1</div></div></div></li>
+        <li><div><div class="c">2</div></div></li>
+        <li><div><div class="c">3</div></div></li>
+        <li><div><div class="c">4</div></div></li>
+    </ul>
     <script>
+        $(".c").on("click",function(){
+            console.log($(this).parent().siblings())
+            $(this).parents().css("list-style","square").siblings().css("list-style","none")
+        })
         function copy(){
             var url=document.getElementById("url")
             url.select();

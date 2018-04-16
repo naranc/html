@@ -132,6 +132,11 @@ $(document).ready(function(){
         $(this).css("color","#fff")
         
     })
-    
+    $(".img1").on("click",function(){
+        $(".imgbig1").show()
+    })
+    $(".imgbig1").on("click",function(){
+        $(".imgbig1").hide()
+    })
     
 })
